@@ -88,3 +88,59 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# When you work on the navigation concept please go through the given link to install the required dependency
+
+- link https://reactnavigation.org/docs/getting-started/
+- Please walkthrough the link to know more about navigation
+
+## Installation
+
+To Install the required packages in your React Native project:
+
+```bash
+npm install @react-navigation/native
+```
+
+## Installing dependencies into a bare React Native project
+
+```bash
+npm install react-native-screens react-native-safe-area-context
+```
+
+## If you're on a Mac and developing for iOS, you need to install the pods (via Cocoapods) to complete the linking.
+
+```bash
+npx pod-install ios
+```
+
+#  To install native navigation stack type install below dependency
+
+- Above installation are mandatory to work with navigation link in iOS or Andriod. When it comes to the React native navigation stack type you can go with below dependency
+
+```bash
+npm install @react-navigation/native-stack
+```
+
+# To apply drawer navigation use below dependency
+
+- Use this link for required dependency https://reactnavigation.org/docs/drawer-navigator/
+
+```bash
+npm install @react-navigation/drawer
+```
+
+- If you have a bare React Native project, in your project directory, run:
+
+```bash
+npm install react-native-gesture-handler react-native-reanimated
+```
+
+# Refer below link for bottom tab navigation
+
+- https://reactnavigation.org/docs/bottom-tab-navigator
+
+```bash
+npm install @react-navigation/bottom-tabs
+```
+
